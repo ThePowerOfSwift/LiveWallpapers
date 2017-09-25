@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-4643560943003002/7864273977</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-4643560943003002/8143475575</string>
+	<key>CLIENT_ID</key>
+	<string>850166002224-rubi89r6o7qcb6lbp4jdbl5shb7g7e5n.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.850166002224-rubi89r6o7qcb6lbp4jdbl5shb7g7e5n</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAyHWeDMvjwUTHVfE3Ic8iUgeSuTuGlpwk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>850166002224</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>zihad.LiveWallpapers</string>
+	<key>PROJECT_ID</key>
+	<string>livewallpapers-9e0cc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>livewallpapers-9e0cc.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:850166002224:ios:415d132e4a254e78</string>
+	<key>DATABASE_URL</key>
+	<string>https://livewallpapers-9e0cc.firebaseio.com</string>
+</dict>
+</plist>

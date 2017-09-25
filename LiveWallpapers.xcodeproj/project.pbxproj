@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34F4B6DF1E79A48E00142EC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F4B6DE1E79A48E00142EC8 /* main.m */; };
+		34F4B6E21E79A48E00142EC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F4B6E11E79A48E00142EC8 /* AppDelegate.m */; };
+		34F4B6E51E79A48E00142EC8 /* LiveWallpaperVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F4B6E41E79A48E00142EC8 /* LiveWallpaperVC.m */; };
+		34F4B6E81E79A48E00142EC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F4B6E61E79A48E00142EC8 /* Main.storyboard */; };
+		34F4B6EA1E79A48E00142EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F4B6E91E79A48E00142EC8 /* Assets.xcassets */; };
+		34F4B6ED1E79A48E00142EC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F4B6EB1E79A48E00142EC8 /* LaunchScreen.storyboard */; };
+		34F4B6F81E79A48E00142EC8 /* LiveWallpapersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F4B6F71E79A48E00142EC8 /* LiveWallpapersTests.m */; };
+		34F4B7031E79A48E00142EC8 /* LiveWallpapersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F4B7021E79A48E00142EC8 /* LiveWallpapersUITests.m */; };
+		34F4B7121E79A52D00142EC8 /* LiveWallpaperCatagoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F4B7111E79A52D00142EC8 /* LiveWallpaperCatagoryVC.m */; };
+		34F4B7171E79A8A000142EC8 /* LiveWallpaperCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F4B7161E79A8A000142EC8 /* LiveWallpaperCVCell.m */; };
+		34F4B71A1E79A8DE00142EC8 /* CatagoryListTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F4B7191E79A8DE00142EC8 /* CatagoryListTableCell.m */; };
+		34F4B7361E79C0C800142EC8 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F4B7341E79C0C800142EC8 /* Photos.framework */; };
+		34F4B7371E79C0C800142EC8 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F4B7351E79C0C800142EC8 /* PhotosUI.framework */; };
+		34F4B7391E79C0DB00142EC8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F4B7381E79C0DB00142EC8 /* AVFoundation.framework */; };
+		34F4B80C1E7AFF2600142EC8 /* lively_00.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 34F4B7C61E7AFF2600142EC8 /* lively_00.JPG */; };
+		34F4B80D1E7AFF2600142EC8 /* lively_00.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 34F4B7C71E7AFF2600142EC8 /* lively_00.MOV */; };
+		34F4B80E1E7AFF2600142EC8 /* lively_01.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 34F4B7C81E7AFF2600142EC8 /* lively_01.JPG */; };
+		34F4B80F1E7AFF2600142EC8 /* lively_01.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 34F4B7C91E7AFF2600142EC8 /* lively_01.MOV */; };
+		34F510C01E7D487B00CCDE62 /* w1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34F510B81E7D487B00CCDE62 /* w1.jpg */; };
+		34F510C11E7D487B00CCDE62 /* w2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34F510B91E7D487B00CCDE62 /* w2.jpg */; };
+		34F510C31E7D487B00CCDE62 /* w4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34F510BB1E7D487B00CCDE62 /* w4.jpg */; };
+		34F510C41E7D487B00CCDE62 /* w5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34F510BC1E7D487B00CCDE62 /* w5.jpg */; };
+		34F510C51E7D487B00CCDE62 /* w6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34F510BD1E7D487B00CCDE62 /* w6.jpg */; };
+		34F510C61E7D487B00CCDE62 /* w7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34F510BE1E7D487B00CCDE62 /* w7.jpg */; };
+		34F510C91E7D48F300CCDE62 /* w9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34F510C81E7D48F300CCDE62 /* w9.jpg */; };
+		34F510CB1E7D48FC00CCDE62 /* w10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34F510CA1E7D48FC00CCDE62 /* w10.jpg */; };
+		34F6AEAB1E82DCEA00B1023D /* ThumbnailCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F6AEAA1E82DCEA00B1023D /* ThumbnailCollectionViewCell.m */; };
+		34FBE8FA1E803B440026F654 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34FBE8F91E803B440026F654 /* GoogleService-Info.plist */; };
+		34FBE8FC1E803FDC0026F654 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FBE8FB1E803FDC0026F654 /* AdSupport.framework */; };
+		34FBE9021E8062F80026F654 /* UIViewController+AdSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FBE9011E8062F80026F654 /* UIViewController+AdSetting.m */; };
+		34FCA4001E941C8700EEAC60 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34FCA3FF1E941C8700EEAC60 /* Localizable.strings */; };
+		5D70685901B82E607CB3BA86 /* libPods-LiveWallpapers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 038303CA337E1B211F85BBE2 /* libPods-LiveWallpapers.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34F4B6F41E79A48E00142EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34F4B6D21E79A48E00142EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F4B6D91E79A48E00142EC8;
+			remoteInfo = LiveWallpapers;
+		};
+		34F4B6FF1E79A48E00142EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34F4B6D21E79A48E00142EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F4B6D91E79A48E00142EC8;
+			remoteInfo = LiveWallpapers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038303CA337E1B211F85BBE2 /* libPods-LiveWallpapers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiveWallpapers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F4B6DA1E79A48E00142EC8 /* LiveWallpapers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveWallpapers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F4B6DE1E79A48E00142EC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34F4B6E01E79A48E00142EC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34F4B6E11E79A48E00142EC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34F4B6E31E79A48E00142EC8 /* LiveWallpaperVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveWallpaperVC.h; sourceTree = "<group>"; };
+		34F4B6E41E79A48E00142EC8 /* LiveWallpaperVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveWallpaperVC.m; sourceTree = "<group>"; };
+		34F4B6E71E79A48E00142EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34F4B6E91E79A48E00142EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34F4B6EC1E79A48E00142EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34F4B6EE1E79A48E00142EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F4B6F31E79A48E00142EC8 /* LiveWallpapersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveWallpapersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F4B6F71E79A48E00142EC8 /* LiveWallpapersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveWallpapersTests.m; sourceTree = "<group>"; };
+		34F4B6F91E79A48E00142EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F4B6FE1E79A48E00142EC8 /* LiveWallpapersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveWallpapersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F4B7021E79A48E00142EC8 /* LiveWallpapersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveWallpapersUITests.m; sourceTree = "<group>"; };
+		34F4B7041E79A48E00142EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F4B7101E79A52D00142EC8 /* LiveWallpaperCatagoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveWallpaperCatagoryVC.h; sourceTree = "<group>"; };
+		34F4B7111E79A52D00142EC8 /* LiveWallpaperCatagoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveWallpaperCatagoryVC.m; sourceTree = "<group>"; };
+		34F4B7151E79A8A000142EC8 /* LiveWallpaperCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveWallpaperCVCell.h; sourceTree = "<group>"; };
+		34F4B7161E79A8A000142EC8 /* LiveWallpaperCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveWallpaperCVCell.m; sourceTree = "<group>"; };
+		34F4B7181E79A8DE00142EC8 /* CatagoryListTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatagoryListTableCell.h; sourceTree = "<group>"; };
+		34F4B7191E79A8DE00142EC8 /* CatagoryListTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatagoryListTableCell.m; sourceTree = "<group>"; };
+		34F4B7341E79C0C800142EC8 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		34F4B7351E79C0C800142EC8 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		34F4B7381E79C0DB00142EC8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		34F4B7C61E7AFF2600142EC8 /* lively_00.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lively_00.JPG; sourceTree = "<group>"; };
+		34F4B7C71E7AFF2600142EC8 /* lively_00.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = lively_00.MOV; sourceTree = "<group>"; };
+		34F4B7C81E7AFF2600142EC8 /* lively_01.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lively_01.JPG; sourceTree = "<group>"; };
+		34F4B7C91E7AFF2600142EC8 /* lively_01.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = lively_01.MOV; sourceTree = "<group>"; };
+		34F510B81E7D487B00CCDE62 /* w1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w1.jpg; sourceTree = "<group>"; };
+		34F510B91E7D487B00CCDE62 /* w2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w2.jpg; sourceTree = "<group>"; };
+		34F510BB1E7D487B00CCDE62 /* w4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w4.jpg; sourceTree = "<group>"; };
+		34F510BC1E7D487B00CCDE62 /* w5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w5.jpg; sourceTree = "<group>"; };
+		34F510BD1E7D487B00CCDE62 /* w6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w6.jpg; sourceTree = "<group>"; };
+		34F510BE1E7D487B00CCDE62 /* w7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w7.jpg; sourceTree = "<group>"; };
+		34F510C81E7D48F300CCDE62 /* w9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w9.jpg; sourceTree = "<group>"; };
+		34F510CA1E7D48FC00CCDE62 /* w10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w10.jpg; sourceTree = "<group>"; };
+		34F6AEA91E82DCEA00B1023D /* ThumbnailCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailCollectionViewCell.h; sourceTree = "<group>"; };
+		34F6AEAA1E82DCEA00B1023D /* ThumbnailCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailCollectionViewCell.m; sourceTree = "<group>"; };
+		34FBE8F91E803B440026F654 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		34FBE8FB1E803FDC0026F654 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		34FBE9001E8062F80026F654 /* UIViewController+AdSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AdSetting.h"; sourceTree = "<group>"; };
+		34FBE9011E8062F80026F654 /* UIViewController+AdSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AdSetting.m"; sourceTree = "<group>"; };
+		34FCA3FF1E941C8700EEAC60 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		6305D9242288D419285AC778 /* Pods-LiveWallpapers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveWallpapers.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiveWallpapers/Pods-LiveWallpapers.release.xcconfig"; sourceTree = "<group>"; };
+		7AFE88E9B149E1046BA805BC /* Pods-LiveWallpapers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveWallpapers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiveWallpapers/Pods-LiveWallpapers.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34F4B6D71E79A48E00142EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FBE8FC1E803FDC0026F654 /* AdSupport.framework in Frameworks */,
+				34F4B7391E79C0DB00142EC8 /* AVFoundation.framework in Frameworks */,
+				34F4B7361E79C0C800142EC8 /* Photos.framework in Frameworks */,
+				34F4B7371E79C0C800142EC8 /* PhotosUI.framework in Frameworks */,
+				5D70685901B82E607CB3BA86 /* libPods-LiveWallpapers.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F4B6F01E79A48E00142EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F4B6FB1E79A48E00142EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34F4B6D11E79A48E00142EC8 = {
+			isa = PBXGroup;
+			children = (
+				34F4B6DC1E79A48E00142EC8 /* LiveWallpapers */,
+				34F4B6F61E79A48E00142EC8 /* LiveWallpapersTests */,
+				34F4B7011E79A48E00142EC8 /* LiveWallpapersUITests */,
+				34F4B6DB1E79A48E00142EC8 /* Products */,
+				34F4B7331E79C0C800142EC8 /* Frameworks */,
+				9BE5CD6335EAF07FB3927DEB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		34F4B6DB1E79A48E00142EC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34F4B6DA1E79A48E00142EC8 /* LiveWallpapers.app */,
+				34F4B6F31E79A48E00142EC8 /* LiveWallpapersTests.xctest */,
+				34F4B6FE1E79A48E00142EC8 /* LiveWallpapersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34F4B6DC1E79A48E00142EC8 /* LiveWallpapers */ = {
+			isa = PBXGroup;
+			children = (
+				34F4B6E01E79A48E00142EC8 /* AppDelegate.h */,
+				34F4B6E11E79A48E00142EC8 /* AppDelegate.m */,
+				34F4B7141E79A81E00142EC8 /* LiveWallpaperVC */,
+				34F4B7131E79A7E700142EC8 /* LiveWallpaperCatagoryVC */,
+				34F4B6E61E79A48E00142EC8 /* Main.storyboard */,
+				34F4B6E91E79A48E00142EC8 /* Assets.xcassets */,
+				34F4B6EB1E79A48E00142EC8 /* LaunchScreen.storyboard */,
+				34F4B6EE1E79A48E00142EC8 /* Info.plist */,
+				34F4B6DD1E79A48E00142EC8 /* Supporting Files */,
+			);
+			path = LiveWallpapers;
+			sourceTree = "<group>";
+		};
+		34F4B6DD1E79A48E00142EC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34FCA3FF1E941C8700EEAC60 /* Localizable.strings */,
+				34FBE8F91E803B440026F654 /* GoogleService-Info.plist */,
+				34F510B81E7D487B00CCDE62 /* w1.jpg */,
+				34F510B91E7D487B00CCDE62 /* w2.jpg */,
+				34F510BB1E7D487B00CCDE62 /* w4.jpg */,
+				34F510BC1E7D487B00CCDE62 /* w5.jpg */,
+				34F510BD1E7D487B00CCDE62 /* w6.jpg */,
+				34F510BE1E7D487B00CCDE62 /* w7.jpg */,
+				34F510CA1E7D48FC00CCDE62 /* w10.jpg */,
+				34F510C81E7D48F300CCDE62 /* w9.jpg */,
+				34F4B7C61E7AFF2600142EC8 /* lively_00.JPG */,
+				34F4B7C71E7AFF2600142EC8 /* lively_00.MOV */,
+				34F4B7C81E7AFF2600142EC8 /* lively_01.JPG */,
+				34F4B7C91E7AFF2600142EC8 /* lively_01.MOV */,
+				34F4B6DE1E79A48E00142EC8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34F4B6F61E79A48E00142EC8 /* LiveWallpapersTests */ = {
+			isa = PBXGroup;
+			children = (
+				34F4B6F71E79A48E00142EC8 /* LiveWallpapersTests.m */,
+				34F4B6F91E79A48E00142EC8 /* Info.plist */,
+			);
+			path = LiveWallpapersTests;
+			sourceTree = "<group>";
+		};
+		34F4B7011E79A48E00142EC8 /* LiveWallpapersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34F4B7021E79A48E00142EC8 /* LiveWallpapersUITests.m */,
+				34F4B7041E79A48E00142EC8 /* Info.plist */,
+			);
+			path = LiveWallpapersUITests;
+			sourceTree = "<group>";
+		};
+		34F4B7131E79A7E700142EC8 /* LiveWallpaperCatagoryVC */ = {
+			isa = PBXGroup;
+			children = (
+				34F4B7101E79A52D00142EC8 /* LiveWallpaperCatagoryVC.h */,
+				34F4B7111E79A52D00142EC8 /* LiveWallpaperCatagoryVC.m */,
+				34F4B7181E79A8DE00142EC8 /* CatagoryListTableCell.h */,
+				34F4B7191E79A8DE00142EC8 /* CatagoryListTableCell.m */,
+			);
+			name = LiveWallpaperCatagoryVC;
+			sourceTree = "<group>";
+		};
+		34F4B7141E79A81E00142EC8 /* LiveWallpaperVC */ = {
+			isa = PBXGroup;
+			children = (
+				34F6AEAC1E82DD2200B1023D /* ThumbnailCollectionViewCell */,
+				34F4B6E31E79A48E00142EC8 /* LiveWallpaperVC.h */,
+				34F4B6E41E79A48E00142EC8 /* LiveWallpaperVC.m */,
+				34F4B7151E79A8A000142EC8 /* LiveWallpaperCVCell.h */,
+				34F4B7161E79A8A000142EC8 /* LiveWallpaperCVCell.m */,
+				34F6AEAE1E82DDAE00B1023D /* AdSetting */,
+			);
+			name = LiveWallpaperVC;
+			sourceTree = "<group>";
+		};
+		34F4B7331E79C0C800142EC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34FBE8FB1E803FDC0026F654 /* AdSupport.framework */,
+				34F4B7381E79C0DB00142EC8 /* AVFoundation.framework */,
+				34F4B7341E79C0C800142EC8 /* Photos.framework */,
+				34F4B7351E79C0C800142EC8 /* PhotosUI.framework */,
+				038303CA337E1B211F85BBE2 /* libPods-LiveWallpapers.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34F6AEAC1E82DD2200B1023D /* ThumbnailCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				34F6AEA91E82DCEA00B1023D /* ThumbnailCollectionViewCell.h */,
+				34F6AEAA1E82DCEA00B1023D /* ThumbnailCollectionViewCell.m */,
+			);
+			name = ThumbnailCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		34F6AEAE1E82DDAE00B1023D /* AdSetting */ = {
+			isa = PBXGroup;
+			children = (
+				34FBE9001E8062F80026F654 /* UIViewController+AdSetting.h */,
+				34FBE9011E8062F80026F654 /* UIViewController+AdSetting.m */,
+			);
+			name = AdSetting;
+			sourceTree = "<group>";
+		};
+		9BE5CD6335EAF07FB3927DEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AFE88E9B149E1046BA805BC /* Pods-LiveWallpapers.debug.xcconfig */,
+				6305D9242288D419285AC778 /* Pods-LiveWallpapers.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34F4B6D91E79A48E00142EC8 /* LiveWallpapers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F4B7071E79A48E00142EC8 /* Build configuration list for PBXNativeTarget "LiveWallpapers" */;
+			buildPhases = (
+				C8FD1DD98307E31FD7BA67CA /* [CP] Check Pods Manifest.lock */,
+				34F4B6D61E79A48E00142EC8 /* Sources */,
+				34F4B6D71E79A48E00142EC8 /* Frameworks */,
+				34F4B6D81E79A48E00142EC8 /* Resources */,
+				0A51034AB8D93F7BEBD93073 /* [CP] Embed Pods Frameworks */,
+				EE5FF2ECE2C698547360DE43 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveWallpapers;
+			productName = LiveWallpapers;
+			productReference = 34F4B6DA1E79A48E00142EC8 /* LiveWallpapers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34F4B6F21E79A48E00142EC8 /* LiveWallpapersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F4B70A1E79A48E00142EC8 /* Build configuration list for PBXNativeTarget "LiveWallpapersTests" */;
+			buildPhases = (
+				34F4B6EF1E79A48E00142EC8 /* Sources */,
+				34F4B6F01E79A48E00142EC8 /* Frameworks */,
+				34F4B6F11E79A48E00142EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34F4B6F51E79A48E00142EC8 /* PBXTargetDependency */,
+			);
+			name = LiveWallpapersTests;
+			productName = LiveWallpapersTests;
+			productReference = 34F4B6F31E79A48E00142EC8 /* LiveWallpapersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34F4B6FD1E79A48E00142EC8 /* LiveWallpapersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F4B70D1E79A48E00142EC8 /* Build configuration list for PBXNativeTarget "LiveWallpapersUITests" */;
+			buildPhases = (
+				34F4B6FA1E79A48E00142EC8 /* Sources */,
+				34F4B6FB1E79A48E00142EC8 /* Frameworks */,
+				34F4B6FC1E79A48E00142EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34F4B7001E79A48E00142EC8 /* PBXTargetDependency */,
+			);
+			name = LiveWallpapersUITests;
+			productName = LiveWallpapersUITests;
+			productReference = 34F4B6FE1E79A48E00142EC8 /* LiveWallpapersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34F4B6D21E79A48E00142EC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zihad;
+				TargetAttributes = {
+					34F4B6D91E79A48E00142EC8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W2EX2P4C7V;
+						ProvisioningStyle = Automatic;
+					};
+					34F4B6F21E79A48E00142EC8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8H2853YWUR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34F4B6D91E79A48E00142EC8;
+					};
+					34F4B6FD1E79A48E00142EC8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8H2853YWUR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34F4B6D91E79A48E00142EC8;
+					};
+				};
+			};
+			buildConfigurationList = 34F4B6D51E79A48E00142EC8 /* Build configuration list for PBXProject "LiveWallpapers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34F4B6D11E79A48E00142EC8;
+			productRefGroup = 34F4B6DB1E79A48E00142EC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34F4B6D91E79A48E00142EC8 /* LiveWallpapers */,
+				34F4B6F21E79A48E00142EC8 /* LiveWallpapersTests */,
+				34F4B6FD1E79A48E00142EC8 /* LiveWallpapersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34F4B6D81E79A48E00142EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F4B80F1E7AFF2600142EC8 /* lively_01.MOV in Resources */,
+				34F510C51E7D487B00CCDE62 /* w6.jpg in Resources */,
+				34F510C91E7D48F300CCDE62 /* w9.jpg in Resources */,
+				34F4B80C1E7AFF2600142EC8 /* lively_00.JPG in Resources */,
+				34F510CB1E7D48FC00CCDE62 /* w10.jpg in Resources */,
+				34F510C11E7D487B00CCDE62 /* w2.jpg in Resources */,
+				34F510C01E7D487B00CCDE62 /* w1.jpg in Resources */,
+				34F510C61E7D487B00CCDE62 /* w7.jpg in Resources */,
+				34FBE8FA1E803B440026F654 /* GoogleService-Info.plist in Resources */,
+				34F510C41E7D487B00CCDE62 /* w5.jpg in Resources */,
+				34F4B6ED1E79A48E00142EC8 /* LaunchScreen.storyboard in Resources */,
+				34F4B80D1E7AFF2600142EC8 /* lively_00.MOV in Resources */,
+				34F4B6EA1E79A48E00142EC8 /* Assets.xcassets in Resources */,
+				34F510C31E7D487B00CCDE62 /* w4.jpg in Resources */,
+				34F4B6E81E79A48E00142EC8 /* Main.storyboard in Resources */,
+				34FCA4001E941C8700EEAC60 /* Localizable.strings in Resources */,
+				34F4B80E1E7AFF2600142EC8 /* lively_01.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F4B6F11E79A48E00142EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F4B6FC1E79A48E00142EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A51034AB8D93F7BEBD93073 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiveWallpapers/Pods-LiveWallpapers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8FD1DD98307E31FD7BA67CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE5FF2ECE2C698547360DE43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiveWallpapers/Pods-LiveWallpapers-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34F4B6D61E79A48E00142EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F4B6E51E79A48E00142EC8 /* LiveWallpaperVC.m in Sources */,
+				34F4B6E21E79A48E00142EC8 /* AppDelegate.m in Sources */,
+				34FBE9021E8062F80026F654 /* UIViewController+AdSetting.m in Sources */,
+				34F6AEAB1E82DCEA00B1023D /* ThumbnailCollectionViewCell.m in Sources */,
+				34F4B7171E79A8A000142EC8 /* LiveWallpaperCVCell.m in Sources */,
+				34F4B6DF1E79A48E00142EC8 /* main.m in Sources */,
+				34F4B71A1E79A8DE00142EC8 /* CatagoryListTableCell.m in Sources */,
+				34F4B7121E79A52D00142EC8 /* LiveWallpaperCatagoryVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F4B6EF1E79A48E00142EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F4B6F81E79A48E00142EC8 /* LiveWallpapersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F4B6FA1E79A48E00142EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F4B7031E79A48E00142EC8 /* LiveWallpapersUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34F4B6F51E79A48E00142EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F4B6D91E79A48E00142EC8 /* LiveWallpapers */;
+			targetProxy = 34F4B6F41E79A48E00142EC8 /* PBXContainerItemProxy */;
+		};
+		34F4B7001E79A48E00142EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F4B6D91E79A48E00142EC8 /* LiveWallpapers */;
+			targetProxy = 34F4B6FF1E79A48E00142EC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34F4B6E61E79A48E00142EC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F4B6E71E79A48E00142EC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34F4B6EB1E79A48E00142EC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F4B6EC1E79A48E00142EC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34F4B7051E79A48E00142EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34F4B7061E79A48E00142EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34F4B7081E79A48E00142EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFE88E9B149E1046BA805BC /* Pods-LiveWallpapers.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W2EX2P4C7V;
+				INFOPLIST_FILE = LiveWallpapers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zihad.LiveWallpapers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34F4B7091E79A48E00142EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6305D9242288D419285AC778 /* Pods-LiveWallpapers.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W2EX2P4C7V;
+				INFOPLIST_FILE = LiveWallpapers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zihad.LiveWallpapers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34F4B70B1E79A48E00142EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8H2853YWUR;
+				INFOPLIST_FILE = LiveWallpapersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zihad.LiveWallpapersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveWallpapers.app/LiveWallpapers";
+			};
+			name = Debug;
+		};
+		34F4B70C1E79A48E00142EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8H2853YWUR;
+				INFOPLIST_FILE = LiveWallpapersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zihad.LiveWallpapersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveWallpapers.app/LiveWallpapers";
+			};
+			name = Release;
+		};
+		34F4B70E1E79A48E00142EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8H2853YWUR;
+				INFOPLIST_FILE = LiveWallpapersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zihad.LiveWallpapersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LiveWallpapers;
+			};
+			name = Debug;
+		};
+		34F4B70F1E79A48E00142EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8H2853YWUR;
+				INFOPLIST_FILE = LiveWallpapersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zihad.LiveWallpapersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LiveWallpapers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34F4B6D51E79A48E00142EC8 /* Build configuration list for PBXProject "LiveWallpapers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F4B7051E79A48E00142EC8 /* Debug */,
+				34F4B7061E79A48E00142EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F4B7071E79A48E00142EC8 /* Build configuration list for PBXNativeTarget "LiveWallpapers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F4B7081E79A48E00142EC8 /* Debug */,
+				34F4B7091E79A48E00142EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F4B70A1E79A48E00142EC8 /* Build configuration list for PBXNativeTarget "LiveWallpapersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F4B70B1E79A48E00142EC8 /* Debug */,
+				34F4B70C1E79A48E00142EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F4B70D1E79A48E00142EC8 /* Build configuration list for PBXNativeTarget "LiveWallpapersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F4B70E1E79A48E00142EC8 /* Debug */,
+				34F4B70F1E79A48E00142EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34F4B6D21E79A48E00142EC8 /* Project object */;
+}

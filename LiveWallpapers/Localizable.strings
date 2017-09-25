@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  Live Photo
+
+  Created by MacBook Pro  on 19/04/2016.
+  Copyright © 2016 MacBook Pro . All rights reserved.
+*/
+"DOWNLOAD_MESSAGE"                           = "please wait.";
+"LIVEPHOTOSAVESUCCESS"                           = "Successfully Save Live Photo.";
